@@ -1,0 +1,17 @@
+Title 06 - New note
+
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over browser:
+spa.js prevents default post behaviour
+it creates a note object with date and text
+it adds the note to the notes list
+it rerenders the note list on the page
+it sends the new note to the server
+end note
+
+server-->browser: HTTP CODE 201
+
+note over browser:
+sever response with 201 status code
+end note
